@@ -28,4 +28,15 @@ LINK: https://adminlte.io/
 
     'locale' => '<language>'
 
+----------------------- config .env -----------------------
+1. Access to .env file
+2. Found DB_DATABASE=laravel and modifies with:
+    DB_DATABASE=<name of your project>
 
+----------------------- creating model --------------------------
+1. In terminal, code:
+    php artisan make:model Empleado
+
+It's importantt you rwirte the model first letter with Upperletter.
+
+(app/Models/<yourmodel>)
