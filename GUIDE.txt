@@ -3,3 +3,29 @@
 | This is a point of sale system with Laravel |
 | ------------------------------------------- |
 
+---------------------- Adminlte template ------------------------
+I'm using the admin-lte template for this project.
+LINK: https://adminlte.io/
+
+---------------------- Start Laravel ----------------------------
+1. Terminal:
+    composer create-project laravel/laravel <name-project>
+
+---------------------- Debug mode -------------------------------
+1. To active debug mode, go /config/app.php and change "debug" to true.
+    
+    'debug' => (bool) env('APP_DEBUG', true),
+
+------------------------- Timezone --------------------------------
+1. To change the time zone, go /config/app.php and set your country timezone:
+
+    'timezone' => '<timezone>',
+
+(You can search it in "php timezone" in your browser).
+
+------------------------- Language --------------------------------
+1. To change the language, go /config/app.php and set your preferred language:
+
+    'locale' => '<language>'
+
+
